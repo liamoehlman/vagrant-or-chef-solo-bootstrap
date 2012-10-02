@@ -3,7 +3,12 @@ bootstrap files borrowed (stolen) from this tutorial
 
 If you are using this and you would like features added, create an issue or pull request (preferrably on a topic branch you have created in your fork)
 
-#### Todo
+### Usage#
 
-* rbenv and ruby 1.9.3+
-* zsh, maybe with my .oh-my-zsh repo
+* In deploy.sh set the full path to your cookbook directory
+
+```
+./deploy.sh <user>@<host> </full/path/of/your/solo/roles/directory>/<roleyouwant.json> </full/path/to/the/ssh/key>/key
+```  
+
+  

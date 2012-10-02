@@ -2,8 +2,6 @@
  
 # Usage: ./deploy.sh [host] [role.json] [ssh key]
 COOKBOOKS=''
-ROLES=''
-
  
 host="${1:-aaron@192.168.2.105}"
 role="${2}"
